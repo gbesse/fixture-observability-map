@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Déterminer les défauts indiscernables et les mesures qui les séparent', 'en': 'Find indistinguishable faults and measurements that separate them', 'es': 'Encontrar fallos indistinguibles y mediciones que los separan'}

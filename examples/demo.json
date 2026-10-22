@@ -1,0 +1,40 @@
+{
+  "faults": [
+    "healthy",
+    "blocked",
+    "misaligned",
+    "sensor_fault"
+  ],
+  "tests": [
+    {
+      "id": "flow",
+      "cost": 3,
+      "outcomes": {
+        "healthy": "high",
+        "blocked": "low",
+        "misaligned": "high",
+        "sensor_fault": "high"
+      }
+    },
+    {
+      "id": "optical",
+      "cost": 2,
+      "outcomes": {
+        "healthy": "aligned",
+        "blocked": "aligned",
+        "misaligned": "off",
+        "sensor_fault": "aligned"
+      }
+    },
+    {
+      "id": "reference",
+      "cost": 4,
+      "outcomes": {
+        "healthy": "ok",
+        "blocked": "ok",
+        "misaligned": "ok",
+        "sensor_fault": "bad"
+      }
+    }
+  ]
+}

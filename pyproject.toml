@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fixture-observability-map"
+version = "0.1.0a1"
+description = "FR: Déterminer les défauts indiscernables et les mesures qui les séparent | EN: Find indistinguishable faults and measurements that separate them | ES: Encontrar fallos indistinguibles y mediciones que los separan"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+fixture-observability-map = "fixture_observability_map.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["fixture_observability_map*"]
